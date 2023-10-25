@@ -11,7 +11,7 @@ const Testimonial = () => {
         The majority of our users tell us that we are the best in auto financing
       </p>
       <p className='py-2'>
-        "There are people at autochek are amazing. They take their time to explain the whole process and they pay attention too your needs"
+        &quot;There are people at autochek are amazing. They take their time to explain the whole process and they pay attention too your needs&quot;
       </p>
       <p className='py-2'>Stars  5.0</p>
       <div className='flex'>

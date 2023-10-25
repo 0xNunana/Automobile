@@ -18,28 +18,28 @@ const Experience = () => {
     <div className='flex items-center justify-center'>logo</div>
     <div>
       <p>Experienced driver</p>
-      <p className='w-[70%]'>Don&apos;t have a driver? Don't worry we have many experience drivers for you</p>
+      <p className='w-[70%]'>Don&apos;t have a driver? Don&apos;t worry we have many experience drivers for you</p>
     </div>
   </div>
   <div className='flex my-5'>
     <div className='flex items-center justify-center'>logo</div>
     <div>
       <p>Experienced driver</p>
-      <p>Don't have a driver? Don't worry we have many experience drivers for you</p>
+      <p>Don&apos;t have a driver? Don&apos;t worry we have many experience drivers for you</p>
     </div>
   </div>
   <div className='flex my-5'>
     <div className='flex items-center justify-center'>logo</div>
     <div>
       <p>Experienced driver</p>
-      <p>Don't have a driver? Don't worry we have many experience drivers for you</p>
+      <p>Don&apos;t have a driver? Don&apos;t worry we have many experience drivers for you</p>
     </div>
   </div>
   <div className='flex my-5'>
     <div className='flex items-center justify-center'>logo</div>
     <div>
       <p>Experienced driver</p>
-      <p>Don't have a driver? Don't worry we have many experience drivers for you</p>
+      <p>Don&apos;t have a driver? Don&apos;t worry we have many experience drivers for you</p>
     </div>
   </div>
 </div>
