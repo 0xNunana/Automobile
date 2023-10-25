@@ -6,7 +6,7 @@ const Testimonial = () => {
   <div className='mx-20 border  flex'>
     <div className='w-[40%] border'>
       <p className='py-2'>Testimonials</p>
-      <p className='text-3xl font-semibold py-3'>Our Client's Reviews & Testimonials</p>
+      <p className='text-3xl font-semibold py-3'>Our Client&apos;s Reviews & Testimonials</p>
       <p className='py-2'>
         The majority of our users tell us that we are the best in auto financing
       </p>
