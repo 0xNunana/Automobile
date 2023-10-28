@@ -42,7 +42,7 @@ const Modal = ({
           >
             X
           </button>
-        <div className="bg-white w-full max-w-screen-lg p-4 rounded-lg shadow-lg relative" style={{ overflowY: 'auto', maxHeight: '90vh' }} >
+        <div className="bg-white w-full max-w-screen-lg p-4 rounded-lg shadow-lg relative " style={{ overflowY: 'auto', maxHeight: '90vh' }} >
          <div className='flex'>
     {!isSelectedImage ? (
             <div>
@@ -82,16 +82,24 @@ const Modal = ({
           </div>
           <hr className=' border-red-500 h-5'/>
           <div className='flex justify-between'>
-          <p>{additionalDetails?.carName}</p>
+          <p className='text-3xl font-bold'>{additionalDetails?.carName}</p>
 
           </div>
-          <p>Engine Capacity: {additionalDetails?.ccMeasurement}</p>
-          <p>Seats: {additionalDetails?.bodyType?.id}</p>
-          <p>Transmission: {additionalDetails?.transmission}</p>
-          <p>Mileage: {additionalDetails?.mileage} {additionalDetails?.mileageUnit}</p>
-          <p>{additionalDetails?.marketplaceVisibleDate}</p>
-          <p>{additionalDetails?.marketplacePrice}</p>
-          <p>{additionalDetails?.carName}</p>
+          <div className='flex justify-between'>
+          <p><span className='font-semibold text-xl'>Engine Capacity: </span>{additionalDetails?.ccMeasurement}</p>
+          <p><span className='font-semibold text-xl'>Seats:</span> {additionalDetails?.bodyType?.id}</p>
+          </div>
+         <div className='flex justify-between'>
+         <p><span className='font-semibold text-xl'>Transmission:</span> {additionalDetails?.transmission}</p>
+          <p><span className='font-semibold text-xl'>Mileage:</span> {additionalDetails?.mileage} {additionalDetails?.mileageUnit}</p>
+         </div>
+         <div className='flex justify-between pb-10'>
+         <p><span className='font-semibold text-xl'>Posted:</span> {additionalDetails?.marketplaceVisibleDate ? new Date(additionalDetails.marketplaceVisibleDate).getUTCFullYear() : 'N/A'}</p>
+
+          <p className='text-2xl font-bold text-white rounded-lg bg-checki-orange px-5 py-2'> GHC {additionalDetails?.marketplacePrice} </p>
+         </div>
+         
+       
        
 
          

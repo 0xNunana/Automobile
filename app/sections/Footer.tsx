@@ -53,13 +53,13 @@ const Footer = () => {
       <p className='text-xl mb-4 max-sm:mt-3 max-sm:text-md max-sm:mb-2 font-semibold'>Connect with us</p>
       <div className='flex items-center mb-2 max-sm:mb-0'>
       <PiFacebookLogo color='white' size={35} className='m-2'/>
-        <TiSocialTwitterCircular color='white' size={35} className='m-2'/>
+        <TiSocialTwitterCircular color='white' fill='#fe5c3d' size={35} className='m-2'/>
         <PiInstagramLogo color='white' size={35} className='m-2'/>
       </div>
       <p>Subscibe to your newsletter</p>
       <div className='bg-white p-2'>
 <input type='email' placeholder='Enter your email' className='w-4/5 h-10 pl-2'/>
-      <button className='bg-checki-orange/70 text-white w-1/5 h-10 font-semibold'>Send</button>
+      <button className='bg-checki-orange/90 text-white w-1/5 h-10 font-semibold'>Send</button>
       </div>
     </div>
    </div>

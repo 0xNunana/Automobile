@@ -5,7 +5,7 @@ import {AiFillStar} from 'react-icons/ai'
 const Testimonial = () => {
   return (
     <div className='bg-[#181a22] text-[#fbfbfb] max-sm:py-5py-40'>
-  <div className='max-sm:mx-2 mx-32  grid md:grid-cols-3  p-5'>
+  <div className='max-sm:mx-2 mx-32  grid lg:grid-cols-3  p-5'>
     <div className='flex items-center justify-center'>
     <div className='  pl-5'>
       <p className='py-2 max-sm:text-sm'>Testimonials</p>
@@ -50,7 +50,7 @@ const Testimonial = () => {
     </div>
     </div>
  
-    <div className='hidden md:inline-block md:col-span-2 relative '>
+    <div className='hidden lg:inline-block md:col-span-2 relative '>
       <div className='flex justify-center'>
       <Image src='/black.png' alt='car' width={1000} height={500} className='object-cover'/>
 

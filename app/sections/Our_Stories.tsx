@@ -10,7 +10,7 @@ const Our_Stories = () => {
     <div className='flex justify-center items-center pb-10 max-sm:pb-5'>
       <p className='text-4xl font-semibold max-sm:text-2xl'>Read Our Stories</p>
     </div>
-    <div className='grid md:grid-cols-3 gap-10 '>
+    <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 '>
     {tagData.map((tag) => (
       <div className='mx-3 flex justify-center p-3 ' key={tag.id}>
 <StoryCard tag={tag}/>
