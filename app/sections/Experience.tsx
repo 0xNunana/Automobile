@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { experienceData } from '../Data'
-import { PiFacebookLogo } from 'react-icons/pi'
+
 
 const Experience = () => {
   return (
@@ -18,7 +18,7 @@ const Experience = () => {
 </div>
 <div className=''>
 {experienceData.map((item)=>(
-        <div className='flex my-5 max-sm:my-3 '>
+        <div className='flex my-5 max-sm:my-3 ' key={item.id}>
    
         <div className='flex items-center justify-center text-2xl px-2'>
              <p className='bg-checki-orange p-1 rounded-md text-center text-white'>{item.icon}</p> 
