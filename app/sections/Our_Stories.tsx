@@ -1,16 +1,21 @@
 import React from 'react'
+import StoryCard from '../components/StoryCard'
+
+import { tagData } from '../Data'
 
 const Our_Stories = () => {
   return (
     <div className='bg-[#f3f3f3] '>
-  <div className='mx-20 border py-[7rem]'>
-    <div className='flex justify-center items-center pb-10'>
-      <p className='text-3xl font-semibold'>Read Our Stories</p>
+  <div className='max-sm:mx-2 mx-20  py-[7rem] max-sm:py-[3rem]'>
+    <div className='flex justify-center items-center pb-10 max-sm:pb-5'>
+      <p className='text-4xl font-semibold max-sm:text-2xl'>Read Our Stories</p>
     </div>
-    <div className='grid grid-cols-3 gap-10 '>
-<div className='bg-white border text-center h-[600px]'>blog1</div>
-<div className='bg-white border text-center'>blog2</div>
-<div className='bg-white border text-center'>blog3</div>
+    <div className='grid md:grid-cols-3 gap-10 '>
+    {tagData.map((tag) => (
+      <div className='mx-3 flex justify-center p-3 '>
+<StoryCard tag={tag}/>
+      </div>
+))}
     </div>
   </div>
     </div>
